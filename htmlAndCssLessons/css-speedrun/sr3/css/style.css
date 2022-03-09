@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.my-text{
+    /* color: white; */
+    /* background-color:grey; */
+    /* font-size: 40px; */
+    /* 1em = 16px */
+    /* 1rem  = 16px */
+    /* font-size: 10em; */
+    /* font-size: 10rem; */
+    /* font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* text-transform: capitalize; */
+    /* line-height: 200px; */
+    /* letter-spacing: 20px; */
+    font-family: 'Permanent Marker', cursive;
+}

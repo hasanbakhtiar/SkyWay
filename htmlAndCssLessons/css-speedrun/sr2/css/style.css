@@ -1,0 +1,24 @@
+/* p:nth-child(even){
+    color: red;
+} */
+
+/* more line comment */
+
+/* p:nth-child(odd){
+    color: red;
+}
+
+p:nth-child(1){
+    color: red;
+} */
+
+/* #info1{
+    color: green;
+}
+#info2{
+        color: green;
+} */
+
+.item{
+    color: red;
+}
