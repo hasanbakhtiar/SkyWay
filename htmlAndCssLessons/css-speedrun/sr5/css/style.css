@@ -1,0 +1,59 @@
+/* .box{ */
+    /* display: inline-block; */
+    /* width: 100px;
+    height: 100px;
+    background-color: red; */
+
+    /* margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-right: 100px; */
+    /* margin: 10px 50px 30px 100px; */
+
+    /* padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    padding-right: 100px; */
+    /* padding: 10px 50px 30px 100px; */
+
+/* } */
+
+/* 
+img{
+    float: left;
+    float: right;
+}
+.info{
+    clear: left;
+    clear: right;
+    clear: both;
+} 
+*/
+
+
+.my-container{
+
+height: 100vh;
+/* background-color: #eee; */
+display: flex;
+
+/* flex-direction: column-reverse; */
+
+/* sutunlari */
+/* justify-content: flex-start;  */
+justify-content: center;
+flex-wrap: wrap-reverse;
+
+/* setrleri */
+align-items: center;
+}
+
+.my-container .my-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    font-size: 30px;
+    color: #fff;
+
+}

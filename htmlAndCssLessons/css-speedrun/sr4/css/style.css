@@ -1,0 +1,45 @@
+/* https://meyerweb.com/eric/tools/css/reset/ */
+@import url('reset.css');
+@import 'main.css';
+/* body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.box{
+    display: inline-block  ;
+    width: 100px;
+    height: 100px;
+
+    /* border-top: 2px dashed #000; */
+    /* border-bottom: 2px dashed #000; */
+    /* border-right: 2px dashed #000; */
+    /* border-left: 2px dashed #000; */
+
+
+    /* background-color: red; */
+    /* background-color: #1a2; */
+    /* hexcolor 
+        min 0 
+        max f
+        0123456789abcdef
+        3,4,6 -> reqemli
+     */
+
+
+     /* RGB */
+     /* red green blue  */
+    /* background-color: rgb(1, 5, 100); */
+    /* min 0  */
+    /* max 255 */
+
+    /* RGBA  */
+     /* red green blue alpha  */
+     /* background-color: rgba(255, 0, 0, .1); */
+
+
+
+
+
+}
