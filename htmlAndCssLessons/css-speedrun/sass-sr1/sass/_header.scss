@@ -1,0 +1,33 @@
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: $qara;
+    @include between();
+   
+    .logo{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        h1{
+            font-family: $sairdeyir;
+            text-transform: uppercase;
+            font-size: 30px;
+                color: #fff;
+        }
+    }
+    nav{
+        width: 70%;
+
+        ul{
+          @include between();
+            width: 100%;
+            li{
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
