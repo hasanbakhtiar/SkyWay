@@ -1,0 +1,41 @@
+header{
+    *{
+        font-family: sans-serif;
+    }
+    width: 100%;
+    height: 100px;
+    @include between();
+    .logo{
+        width: 20%;
+        @include center();
+
+    }
+    nav{
+        width: 70%;
+        @include center();
+        ul{
+            width: 50%;
+        @include evenly();
+        li{
+            a{
+                color: #000;
+            }
+        }
+
+        }
+    }
+    .sign{
+        width: 15%;
+        @include evenly();
+        button{
+            border: none;
+            padding: 10px;
+            background-color: #fff;
+        }
+        button:nth-child(2){
+                background-color: $brand-color;
+                border-radius: 10px;
+                color: #fff;
+        }
+    }
+}

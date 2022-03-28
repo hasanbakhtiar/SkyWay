@@ -1,0 +1,32 @@
+.con {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+}
+
+.con .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.con p {
+  color: #fff;
+}
+
+@media (min-width: 700px) {
+  .con {
+    background-color: #660080;
+  }
+  .con .box {
+    width: 100px;
+    height: 100px;
+    background-color: #b8dd32;
+    -webkit-transform: translate(300px, 0px);
+            transform: translate(300px, 0px);
+  }
+  .con p {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
