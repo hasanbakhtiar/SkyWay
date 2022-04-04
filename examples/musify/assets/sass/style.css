@@ -1,0 +1,44 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-color {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.bg-cover {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(242deg, #370665 5%, black 44%, #35589A 90%);
+  opacity: .4;
+}
+
+nav {
+  z-index: 2;
+}
+
+.btn-outline-warning {
+  border-color: #F14A16;
+  color: #F14A16;
+}
+
+.btn-outline-warning:hover {
+  background-color: #F14A16;
+  border-color: #F14A16;
+}
+
+.hero {
+  position: relative;
+  z-index: 3;
+}
+
+.text-contaier * {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
