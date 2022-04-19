@@ -179,6 +179,7 @@ if (myTime >= 5 && myTime <= 10) {
   } else if (myTime == 7) {
     console.log("have breakfast");
   } else if (myTime == 10) {
+    
     console.log("go to work");
   }
 } else if (myTime > 10 && myTime <= 17) {
